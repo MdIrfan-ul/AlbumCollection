@@ -5,6 +5,7 @@ function AlbumForm ({addAlbums,albumToEdit,setAlbumToEdit,updateAlbums}){
   
   const [title,setTitle] = useState('');
 
+  // updating the form by existing title
   useEffect(() => {
     if (albumToEdit) {
       setTitle(albumToEdit.title);
@@ -14,8 +15,10 @@ function AlbumForm ({addAlbums,albumToEdit,setAlbumToEdit,updateAlbums}){
   const handleSubmit = (e) => {
     e.preventDefault();
     if (albumToEdit) {
+      // Updating Existing Albums
       updateAlbums(albumToEdit.id, { ...albumToEdit, title });
     } else {
+      // Adding new Album
       const newAlbum = {
         title,
         userId: Math.floor(Math.random() * 10) + 1
@@ -25,6 +28,7 @@ function AlbumForm ({addAlbums,albumToEdit,setAlbumToEdit,updateAlbums}){
     setTitle('');
   };
 
+// Canceling the update
   const handleCancelEdit = () => {
     setAlbumToEdit(null);
     setTitle('');
