@@ -1,0 +1,46 @@
+.albumForm {
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading{
+font-size: 28px;
+  }
+
+.albumInput{
+    width:50%;
+    margin:10px;
+    padding:4px;
+    font-size: 18px;
+    outline: none;
+}
+
+.albumButton{
+    width:200px;
+    padding:5px;
+    font-size: 16px;
+    border: none;
+    background: #198754;
+    color: #fff;
+    transition: transform ease-in-out .3s;
+}
+.albumButton:hover{
+  transform: scale(1.1);
+}
+.cancelButton {
+  width: 200px;
+  padding: 4px;
+  background-color: #dc3545;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.albumButton, .cancelButton {
+  cursor: pointer;
+}
