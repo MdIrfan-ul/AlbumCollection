@@ -10,7 +10,8 @@ ___
 
 ## Live Demo
 
-- **Live Deployed Link:-** <a href="https://reactoperator.netlify.app/" target="_blank">Live</a>
+- **Live Deployed Link:-** <a href="https://albumreactjs.netlify.app/" target="_blank">Live</a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed13e739-c104-4260-a9cd-017b61a0b89e/deploy-status)](https://app.netlify.com/sites/albumreactjs/deploys)
 ___
 
 ## Features
